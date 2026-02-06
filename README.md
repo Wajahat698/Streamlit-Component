@@ -148,7 +148,6 @@ if st.button("Clear History"):
 
 ### Example Chat App
 
-![tsuzukia21/streamlit-chatbot](https://github.com/tsuzukia21/streamlit-chatbot)
 
 ## License
 
@@ -156,4 +155,4 @@ MIT License
 
 ## Author
 
-tsuzukia21
+wajahat
