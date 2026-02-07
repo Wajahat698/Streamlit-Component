@@ -5,28 +5,28 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="st-chat-input-multimodal",
-    version="1.0.6",
-    author="tsuzukia21",
-    description="Streamlit multimodal chat input component with text, image, and voice support",
+    version="1.0.0",  # your own version
+    author="Wajahat698",
+    description="Custom Streamlit multimodal chat input component",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/tsuzukia21/st-chat-input-multimodal",
+    url="https://github.com/Wajahat698/Streamlit-Component",
     packages=setuptools.find_packages(),
-    include_package_data=True,
+    include_package_data=True,  # ✅ include frontend build
     classifiers=[
         "Development Status :: 5 - Production/Stable",
         "Intended Audience :: Developers",
         "Topic :: Software Development :: Libraries :: Python Modules",
         "Programming Language :: Python :: 3",
-        "Programming Language :: Python :: 3.9",
-        "Programming Language :: Python :: 3.10",
-        "Programming Language :: Python :: 3.11",
+        "Programming Language :: 3.9",
+        "Programming Language :: 3.10",
+        "Programming Language :: 3.11",
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
     python_requires=">=3.9",
     install_requires=[
-        "streamlit >= 1.2",
+        "streamlit>=1.25.0",
     ],
     extras_require={
         "dev": [
