@@ -15,8 +15,8 @@ setuptools.setup(
     include_package_data=True,  # ✅ include frontend build
     package_data={
         'st_chat_input_multimodal': [
-            'frontend/build/*',
-            'frontend/build/**/*',
+            'build/*',
+            'build/**/*',
         ],
     },
     classifiers=[
